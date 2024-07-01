@@ -17,6 +17,7 @@ This repository contains a project with a Django backend and a Next.js frontend.
 
 ### 2. Set up the Django Backend
 ### 2.1 Create and activate a virtual environment
+    sudo apt install python3.10-venv
     python3 -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 

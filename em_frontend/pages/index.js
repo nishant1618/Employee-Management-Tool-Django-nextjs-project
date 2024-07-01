@@ -59,7 +59,7 @@ const LoginPage = () => {
         </h1>
         <form onSubmit={handleLogin}>
           <div className="mb-4">
-            <label htmlFor="username" className="block font-bold mb-2">
+            <label htmlFor="username" className="block font-bold mb-2 dark:text-gray-200">
               Username:
             </label>
             <input
@@ -71,7 +71,7 @@ const LoginPage = () => {
             />
           </div>
           <div className="mb-6">
-            <label htmlFor="password" className="block font-bold mb-2">
+            <label htmlFor="password" className="block font-bold mb-2 dark:text-gray-200">
               Password:
             </label>
             <input
