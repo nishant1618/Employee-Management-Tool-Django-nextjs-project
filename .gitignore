@@ -1,0 +1,37 @@
+# Django
+/em_backend/*.log
+/em_backend/*.pot
+/em_backend/*.pyc
+/em_backend/__pycache__/
+/em_backend/db.sqlite3
+/em_backend/media/
+
+# Virtual Environment
+/em_backend/venv/
+/em_backend/.env/
+
+# Next.js
+/em_frontend/.next/
+/em_frontend/out/
+/em_frontend/node_modules/
+/em_frontend/.env.local
+/em_frontend/.env.development.local
+/em_frontend/.env.test.local
+/em_frontend/.env.production.local
+
+#.env files
+/em_backend/.env
+
+#migrations
+
+/em_backend/auth/__pycache__
+/em_backend/leave/__pycache__
+/em_backend/employees/__pycache__
+em_backend/leave/migrations/0001_initial.py
+em_backend/employees/migrations/0001_initial.py
+em_backend/employees/migrations/__pycache__
+em_backend/auth/migrations/__pycache__
+em_backend/leave/migrations/__pycache__
+/em_backend/main/__pycache__
+/em_backend/em_backend/__pycache__
+/em_backend/main/migrations/__pycache__

@@ -1,0 +1,841 @@
+{
+	"info": {
+		"_postman_id": "ab03d82c-3cea-4f30-90db-6aa0441dd494",
+		"name": "Employee Management Tool",
+		"description": "**BACKEND APIs**",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35360964"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "Employees app details",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								""
+							]
+						},
+						"description": "Get the employees app deatils.It shows the number of model in employees app."
+					},
+					"response": []
+				},
+				{
+					"name": "User details",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								""
+							]
+						},
+						"description": "Get User details."
+					},
+					"response": []
+				},
+				{
+					"name": "Department details",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/departments/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"departments",
+								""
+							]
+						},
+						"description": "Get the deatils of the departments available in the company."
+					},
+					"response": []
+				},
+				{
+					"name": "Employees details",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/employees/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"employees",
+								""
+							]
+						},
+						"description": "Get the details of the employee working in the company."
+					},
+					"response": []
+				},
+				{
+					"name": "Role details",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/roles/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"roles",
+								""
+							]
+						},
+						"description": "Get the details of the role available in the company.\nRoles also provide access to manipulate the data to a user."
+					},
+					"response": []
+				}
+			],
+			"description": "ALL GET METHODS"
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "Get Token",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3NzE3LCJpYXQiOjE3MTc1ODQxMTcsImp0aSI6ImZhNGZiOWUxYmRmZTQwMzFiMGM4ZjI1Mjg2MmQzOWRiIiwidXNlcl9pZCI6MX0.B9TxWd5Ql9t71ZDGCoZjzD8zDIT7BvvyJXxQZ-OorGg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "nishant",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "nishant123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/token/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"token",
+								""
+							]
+						},
+						"description": "Get the access and refresh token by entering the username ans password."
+					},
+					"response": []
+				},
+				{
+					"name": "Add User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"koushik\",\n    \"password\" : \"koushik123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								""
+							]
+						},
+						"description": "Only admin can create a user."
+					},
+					"response": []
+				},
+				{
+					"name": "Add Employees",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\":8,\n  \"user\": 9,\n  \"department\": 2,\n  \"role\": 10,\n  \"first_name\": \"koushik\",\n  \"last_name\": \"mohanthy\",\n  \"email\": \"koushik@example.com\",\n  \"phone_number\": \"1234567898\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/employees/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"employees",
+								""
+							]
+						},
+						"description": "This is a post method used for adding employees."
+					},
+					"response": []
+				},
+				{
+					"name": "Add Departments",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"HR\",\n    \"description\" : \"human resource\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/departments/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"departments",
+								""
+							]
+						},
+						"description": "You can add departments by providing name and description of department."
+					},
+					"response": []
+				},
+				{
+					"name": "Add Roles",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"Admin\",\n    \"description\":\"administrator\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/roles/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"roles",
+								""
+							]
+						},
+						"description": "You can add roles by providing role name and description.Make sure to give access to the roles defined in the backend."
+					},
+					"response": []
+				},
+				{
+					"name": "Assign role",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTg3Nzc4LCJpYXQiOjE3MTc1ODQxNzgsImp0aSI6IjI0NTRkMTk2ODVjMzQwOWFhNmVmYjRlNDg2Y2VlNzhkIiwidXNlcl9pZCI6MX0.G_kO9iW7H7kVeQF2XtV_7lYeQ6QgTwBteF7GUWEQT_k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"employee_id\":8\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/roles/10/assign_role/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"roles",
+								"10",
+								"assign_role",
+								""
+							]
+						},
+						"description": "You can assign role to a employee through endpoint by providing role id in endpoint and employee_id in body."
+					},
+					"response": []
+				}
+			],
+			"description": "ALL POST METHODS"
+		},
+		{
+			"name": "DELETE",
+			"item": [
+				{
+					"name": "Delete employee",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTkyNjcxLCJpYXQiOjE3MTc1ODkwNzEsImp0aSI6IjYxOWU2NTQwYTgwYjQ2YmNiMWM4Mzc4MGQxNmJhZWYzIiwidXNlcl9pZCI6MX0.O6F9rI8NTjEU1fZuW1eV4pJ3krG6uF5l8Hk6loocLqY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/employees/8/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"employees",
+								"8",
+								""
+							]
+						},
+						"description": "Delete employees by providing the employee_id at the endpoint."
+					},
+					"response": []
+				},
+				{
+					"name": "Delete department",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTkyNjcxLCJpYXQiOjE3MTc1ODkwNzEsImp0aSI6IjYxOWU2NTQwYTgwYjQ2YmNiMWM4Mzc4MGQxNmJhZWYzIiwidXNlcl9pZCI6MX0.O6F9rI8NTjEU1fZuW1eV4pJ3krG6uF5l8Hk6loocLqY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/departments/2/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"departments",
+								"2",
+								""
+							]
+						},
+						"description": "Delete departments by providing the department_id at the endpoint."
+					},
+					"response": []
+				},
+				{
+					"name": "Delete roles",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTkyNjcxLCJpYXQiOjE3MTc1ODkwNzEsImp0aSI6IjYxOWU2NTQwYTgwYjQ2YmNiMWM4Mzc4MGQxNmJhZWYzIiwidXNlcl9pZCI6MX0.O6F9rI8NTjEU1fZuW1eV4pJ3krG6uF5l8Hk6loocLqY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/roles/2/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"roles",
+								"2",
+								""
+							]
+						},
+						"description": "Delete roles by providing the role_id at the endpoint."
+					},
+					"response": []
+				},
+				{
+					"name": "Delete users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTkyNjcxLCJpYXQiOjE3MTc1ODkwNzEsImp0aSI6IjYxOWU2NTQwYTgwYjQ2YmNiMWM4Mzc4MGQxNmJhZWYzIiwidXNlcl9pZCI6MX0.O6F9rI8NTjEU1fZuW1eV4pJ3krG6uF5l8Hk6loocLqY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users/2/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"2",
+								""
+							]
+						},
+						"description": "Delete users by providing the user_id at the endpoint."
+					},
+					"response": []
+				}
+			],
+			"description": "ALL DELETE METHODS"
+		},
+		{
+			"name": "PATCH",
+			"item": [
+				{
+					"name": "Patch employees",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTkyNjcxLCJpYXQiOjE3MTc1ODkwNzEsImp0aSI6IjYxOWU2NTQwYTgwYjQ2YmNiMWM4Mzc4MGQxNmJhZWYzIiwidXNlcl9pZCI6MX0.O6F9rI8NTjEU1fZuW1eV4pJ3krG6uF5l8Hk6loocLqY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"first_name\": \"Johnny\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/employees/5/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"employees",
+								"5",
+								""
+							]
+						},
+						"description": "Perform Patch method on employees by providing the id at the endpoint."
+					},
+					"response": []
+				},
+				{
+					"name": "Patch users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTkyNjcxLCJpYXQiOjE3MTc1ODkwNzEsImp0aSI6IjYxOWU2NTQwYTgwYjQ2YmNiMWM4Mzc4MGQxNmJhZWYzIiwidXNlcl9pZCI6MX0.O6F9rI8NTjEU1fZuW1eV4pJ3krG6uF5l8Hk6loocLqY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"Johnny\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users/5/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"5",
+								""
+							]
+						},
+						"description": "Perform Patch method on users by providing the id at the endpoint."
+					},
+					"response": []
+				},
+				{
+					"name": "Patch role",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTkyNjcxLCJpYXQiOjE3MTc1ODkwNzEsImp0aSI6IjYxOWU2NTQwYTgwYjQ2YmNiMWM4Mzc4MGQxNmJhZWYzIiwidXNlcl9pZCI6MX0.O6F9rI8NTjEU1fZuW1eV4pJ3krG6uF5l8Hk6loocLqY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/roles/3/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"roles",
+								"3",
+								""
+							]
+						},
+						"description": "Perform Patch method on roles by providing the id at the endpoint."
+					},
+					"response": []
+				},
+				{
+					"name": "Patch departments",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3NTkyNjcxLCJpYXQiOjE3MTc1ODkwNzEsImp0aSI6IjYxOWU2NTQwYTgwYjQ2YmNiMWM4Mzc4MGQxNmJhZWYzIiwidXNlcl9pZCI6MX0.O6F9rI8NTjEU1fZuW1eV4pJ3krG6uF5l8Hk6loocLqY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"HR\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/departments/3/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"departments",
+								"3",
+								""
+							]
+						},
+						"description": "Perform Patch method on deapartments by providing the id at the endpoint."
+					},
+					"response": []
+				}
+			],
+			"description": "ALL PATCH METHODS"
+		}
+	]
+}
