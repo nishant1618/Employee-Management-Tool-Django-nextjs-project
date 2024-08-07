@@ -110,18 +110,26 @@ Body: (raw JSON)
         http://127.0.0.1:8000/swagger/  
         http://127.0.0.1:8000/redoc/
 
-
-
-
-
-
- ### WARNING
--After creating virtual environment for django backend,you need to install all the neccesary tools needed   
--ensure python,django,node,etc are preinstalled.   
--use this code if pkg module is not found   
->pip install --upgrade setuptools
+### WARNING
+- After creating virtual environment for django backend,you need to install all the neccesary tools needed   
+- ensure python,django,node,etc are preinstalled.   
+- use this code if pkg module is not found   
+> pip install --upgrade setuptools
     
--Ensure once the database is created,don't use it again for making the same migrations.It will overlap the models and data.
+- Ensure once the database is created,don't use it again for making the same migrations.It will overlap the models and data.
+
+## Contributing
+Contributions are welcome! Please fork this repository and submit pull requests for any enhancements or bug fixes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contact
+For any questions or issues, please open an issue on GitHub or contact [nishantbehera2002@gmail.com].
+
+
+
+
 
 
     
