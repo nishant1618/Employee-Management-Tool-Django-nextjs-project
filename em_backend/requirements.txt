@@ -2,7 +2,7 @@ asgiref==3.8.1
 Django
 django-cors-headers==4.3.1
 django-guardian==2.4.0
-djangorestframework==3.15.1
+djangorestframework==3.15.2
 djangorestframework-jwt==1.11.0
 djangorestframework-simplejwt==5.3.1
 drf-yasg==1.21.7
